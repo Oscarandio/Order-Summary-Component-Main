@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 body {
-  background-image: url(../images/pattern-background-desktop.svg);
+  background-image: url(../images/pattern-background-mobile.svg);
   background-repeat:repeat-x;
   background-color: #E0E8FF;
   max-width: 1440px;
@@ -96,4 +96,11 @@ align-items: flex-start;
 
 .button a:hover {
   color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg); 
+    background-repeat:repeat-x;
+  }
 }
