@@ -2,14 +2,12 @@
 
 body {
   background-image: url(../images/pattern-background-desktop.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgb(240, 238, 238);
+  background-repeat:repeat-x;
+  background-color: #E0E8FF;
   max-width: 1440px;
   margin: auto;
   font-family: "Red Hat Display", sans-serif;
   position: relative;
-  padding-top: 90px;
 
 
 }
@@ -85,7 +83,7 @@ align-items: flex-start;
 }
 
 .card .button input:hover {
-  background: hsl(225, 100%, 94%);
+  background: hsl(224, 30%, 62%);
 }
 
 .button a {
